@@ -19,14 +19,12 @@ box-sizing:border-box;
    overflow: hidden;
    margin: auto;
    padding: 60px 0;
-
  }
 
 header{
-  height: 85vh;
+  height: 100vh;
   background-image:linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%) ;
-padding:30px;
-
+  padding:30px;
 }
 
 .head{
@@ -37,47 +35,24 @@ padding:30px;
   align-items: center;
   flex-direction: column;
   color: white;
-
 }
 
-/* .hamburguer{
-  position: fixed;
-  top:30px;
-  right: 30px;
-  background: white;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  border-radius: 10px; */
-  /* box-shadow: black; */
-}
-/* Profes: intente colocar un burguer pero no me salio y no me dio tiempo con la fecha de entrega,tendria que investigar mas. Es por eso, que estan comentados */
 .menu-navegacion{
   position: fixed;
   top:0;
-  right: 0;
-
-  width: 30vw;
-  height: 100%;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* .Logo1{
-  max-width: 200px;
-  height: 100px;
-} */
-.spread{
-  transform: translate(0);
-}
-
-.menu-navegacion{
+  left:0;
+  margin-left: 45px;
+  padding: 0 1.5em;
+  font-size: 20px;
+  width: 90%;
+  height: 14.5%;
   color: white;
+  align-items:center;
+  justify-content:center;
   text-decoration: none;
+  background-image:linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
 }
+
  .titulo{
    font-size: 60px;
    margin-bottom: 15px;
@@ -197,6 +172,8 @@ footer{
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
+   margin-top:90px;
+   margin-bottom:40px;
    padding-top: 60px;
    padding-bottom: 40px;
  }
