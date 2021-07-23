@@ -51,6 +51,12 @@ header{
   justify-content:center;
 }
 
+.Logo5{
+  max-width: 300px;
+  height: 100px;
+  display: flex;
+}
+
  .titulo{
    font-size: 60px;
    margin-bottom: 15px;
@@ -81,7 +87,7 @@ header{
 }
 
 .contenedor-servicio img{
-  width: 45%;
+  width: 25%;
 }
 
 .checklist-servicio{
