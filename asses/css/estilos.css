@@ -52,8 +52,8 @@ header{
 }
 
 .Logo5{
-  max-width: 300px;
-  height: 100px;
+  width: 45%;
+  height: 35%;
   display: flex;
 }
 
@@ -116,6 +116,10 @@ header{
   font-weight: 700;
   line-height: 30px;
   margin-right: 5px;
+}
+
+p{
+  text-align: center;
 }
 
 /* Seccion Galeria de fotos */
